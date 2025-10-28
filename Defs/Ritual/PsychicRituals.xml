@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Roles -->
+
+<PsychicRitualRoleDef>
+	<defName>CustomTargetSTNL</defName>
+	<label>target</label>
+	<allowedCount>1</allowedCount>
+	<allowedConditions>Default, Downed, Prisoner, Sleeping, IdeoUnwilling</allowedConditions>
+	<applyPowerOffset>false</applyPowerOffset>
+	<removeOnLost>false</removeOnLost>
+</PsychicRitualRoleDef>
+
+<PsychicRitualRoleDef>
+	<defName>NoLimitChantersSTNL</defName>
+	<label>chanters</label>
+	<allowedCount>99</allowedCount>
+	<allowedConditions>Default, Downed, Prisoner, Sleeping, IdeoUnwilling</allowedConditions>
+	<applyPowerOffset>false</applyPowerOffset>
+	<removeOnLost>false</removeOnLost>
+</PsychicRitualRoleDef>
+  
+  <!-- Psychic Awakening -->
+
+<MorePsyRitualsSTNL.PsychicRitualDef_PsychicAwakening MayRequire="Ludeon.Rimworld.Royalty">
+	<defName>PsychicAwakeningSTNL</defName>
+	<label>Psychic Awakening</label>
+	<description>Attempts to awaken or improve the psychic capabilities of the target.</description>
+	<outcomeDescription>Attempts to bind the target to a distant archotech in order to obtain various psychic abilities or to increase their psychic prowess.\n\nHowever, this process may instead have the effect of fusing the pawn with the archotech, causing them to disappear forever.\n\nChance of critical failure:</outcomeDescription>
+	<iconPath>Sentinel_ModdedPsychicRituals/PsychicAwakening</iconPath>
+	<hoursUntilOutcome>3</hoursUntilOutcome>
+	<cooldownHours>0</cooldownHours>
+	<targetRole>CustomTargetSTNL</targetRole>
+	<!-- <durationHoursFromQualityRange>72~73</durationHoursFromQualityRange> -->
+	<castableOnPocketMaps>true</castableOnPocketMaps>
+	<chanterRole>ChanterAdvanced</chanterRole>
+	<researchPrerequisite>AdvancedPsychicRituals</researchPrerequisite>
+	<requiredOffering>
+		<filter>
+			<thingDefs>
+				<li>Shard</li>
+			</thingDefs>
+		</filter>
+		<count>1</count>
+	</requiredOffering>
+	<chanceOfDeath>
+		<points>
+			<li>(0, 0.5)</li>
+			<li>(0.5, 0.25)</li>
+			<li>(1, 0.10)</li>
+		</points>
+	</chanceOfDeath>
+</MorePsyRitualsSTNL.PsychicRitualDef_PsychicAwakening>
+
+<!-- Xenoverwrite -->
+
+<MorePsyRitualsSTNL.PsychicRitualDef_Xenoverwrite MayRequire="Ludeon.Rimworld.Biotech">
+	<defName>XenoverwriteSTNL</defName>
+	<label>Xen-overwrite</label>
+	<description>Scramble the target's geneset with brand new genes.</description>
+	<outcomeDescription>Concentrate a large amount of dark archites within the target to rewrite their genetic sequence, causing their old genes to leave room for brand new ones.\n\nThis method does not take metabolism limit into account.\n\nAmount of new genes that will awaken within the target:</outcomeDescription>
+	<iconPath>Sentinel_ModdedPsychicRituals/PsychicRitual_Xenoverwrite</iconPath>
+	<hoursUntilOutcome>3</hoursUntilOutcome>
+	<cooldownHours>0</cooldownHours>
+	<targetRole>CustomTargetSTNL</targetRole>
+	<castableOnPocketMaps>true</castableOnPocketMaps>
+	<chanterRole>ChanterAdvanced</chanterRole>
+	<researchPrerequisite>AdvancedPsychicRituals</researchPrerequisite>
+	<requiredOffering>
+		<filter>
+			<thingDefs>
+				<li>Bioferrite</li>
+			</thingDefs>
+		</filter>
+		<count>25</count>
+	</requiredOffering>
+	<!-- <layerWhitelist> -->
+	<!-- <li>Surface</li> -->
+	<!-- </layerWhitelist> -->
+	<randomGeneAmountFromQuality>
+	<points>
+	<li>(0, 5)</li>
+	<li>(0.5, 10)</li>
+	<li>(1, 20)</li>
+	</points>
+	</randomGeneAmountFromQuality>
+</MorePsyRitualsSTNL.PsychicRitualDef_Xenoverwrite>
+
+<!-- Xenophagy -->
+
+<MorePsyRitualsSTNL.PsychicRitualDef_Xenophagy MayRequire="Ludeon.Rimworld.Biotech">
+	<defName>XenophagySTNL</defName>
+	<label>Xenophagy</label>
+	<description>Rip the genes from the target in order to grant them to the invoker.</description>
+	<outcomeDescription>Forcefully rip the target's genes by a dark psychic phenomenon, some genes may destabilize in the process, effectively nullifying them.\n\nChance of transfer per gene:</outcomeDescription>
+	<iconPath>Sentinel_ModdedPsychicRituals/PsychicRitual_Xenophagy</iconPath>
+	<hoursUntilOutcome>3</hoursUntilOutcome>
+	<cooldownHours>0</cooldownHours>
+	<targetRole>CustomTargetSTNL</targetRole>
+	<castableOnPocketMaps>true</castableOnPocketMaps>
+	<chanterRole>ChanterAdvanced</chanterRole>
+	<researchPrerequisite>AdvancedPsychicRituals</researchPrerequisite>
+	<requiredOffering>
+		<filter>
+			<thingDefs>
+				<li>Shard</li>
+			</thingDefs>
+		</filter>
+		<count>1</count>
+	</requiredOffering>
+	<!-- <layerWhitelist> -->
+	<!-- <li>Surface</li> -->
+	<!-- </layerWhitelist> -->
+	<chanceToGetGeneFromQuality>
+		<points>
+			<li>(0, 0.1)</li>
+			<li>(0.5, 0.5)</li>
+			<li>(1, 1)</li>
+		</points>
+	</chanceToGetGeneFromQuality>
+</MorePsyRitualsSTNL.PsychicRitualDef_Xenophagy>
+
+<!-- Skip Migration -->
+
+<MorePsyRitualsSTNL.PsychicRitualDef_SkipMigration>
+	<defName>SkipMigrationSTNL</defName>
+	<label>Skip Migration</label>
+	<description>Relocates the colony to a random location in the world.</description>
+	<outcomeDescription>Concentrate chaotic thoughts into the ritual spot to trigger a disorderly skip process that will relocate the colony to a random location in the world and put the caster into a coma.\n\nDuration of the coma (Days):</outcomeDescription>
+	<iconPath>Sentinel_ModdedPsychicRituals/PsychicRitual_SkipMigration</iconPath>
+	<hoursUntilOutcome>3</hoursUntilOutcome>
+	<cooldownHours>0</cooldownHours>
+	<!-- <targetRole>CustomTargetSTNL</targetRole> -->
+	<!-- <durationHoursFromQualityRange>72~73</durationHoursFromQualityRange> -->
+	<castableOnPocketMaps>false</castableOnPocketMaps>
+	<chanterRole>ChanterAdvanced</chanterRole>
+	<researchPrerequisite>AdvancedPsychicRituals</researchPrerequisite>
+	<requiredOffering>
+		<filter>
+			<thingDefs>
+				<li>Shard</li>
+			</thingDefs>
+		</filter>
+		<count>3</count>
+	</requiredOffering>
+	<layerWhitelist>
+		<li>Surface</li>
+	</layerWhitelist>
+	<comaDurationFromQuality>
+		<points>
+			<li>(0, 900000)</li>
+			<li>(0.5, 450000)</li>
+			<li>(1, 60000)</li>
+		</points>
+	</comaDurationFromQuality>
+</MorePsyRitualsSTNL.PsychicRitualDef_SkipMigration>
+
+<!-- Withering Chant -->
+
+<MorePsyRitualsSTNL.PsychicRitualDef_WitheringChant>
+	<defName>WitheringChantSTNL</defName>
+	<label>Withering Chant</label>
+	<description>Harm enemies in the region.</description>
+	<outcomeDescription>Begin chanting various obscure verses that will cause enemies in the region to begin withering once the incantation finishes.\n\nDuration of withering (Hours):</outcomeDescription>
+	<iconPath>Sentinel_ModdedPsychicRituals/PsychicRitual_WitheringChant</iconPath>
+	<hoursUntilOutcome>1</hoursUntilOutcome>
+	<cooldownHours>0</cooldownHours>
+	<!-- <targetRole>CustomTargetSTNL</targetRole> -->
+	<castableOnPocketMaps>true</castableOnPocketMaps>
+	<chanterRole>ChanterAdvanced</chanterRole>
+	<researchPrerequisite>InsanityWeaponry</researchPrerequisite>
+	<requiredOffering>
+	<filter>
+	<thingDefs>
+	<li>Shard</li>
+	</thingDefs>
+	</filter>
+	<count>5</count>
+	</requiredOffering>
+	<!-- <layerWhitelist> -->
+	<!-- <li>Surface</li> -->
+	<!-- </layerWhitelist> -->
+	<durationOfWitheringBasedOnQuality>
+		<points>
+			<li>(0, 2500)</li>
+			<li>(0.5, 7500)</li>
+			<li>(1, 12500)</li>
+		</points>
+	</durationOfWitheringBasedOnQuality>
+</MorePsyRitualsSTNL.PsychicRitualDef_WitheringChant>
+
+<!-- Void Touched Transfer -->
+
+<MorePsyRitualsSTNL.PsychicRitualDef_VoidTouchedTransfer>
+	<defName>VoidTouchedTransferSTNL</defName>
+	<label>Void Touch Transfer</label>
+	<description>Transfer the mark of the Void to another person.</description>
+	<outcomeDescription>Transfer the touch of the Void to another person, the invoker must be Void touched in order to successfully transfer their condition to the target.\n\nChance that the target will fall into a coma:</outcomeDescription>
+	<iconPath>Sentinel_ModdedPsychicRituals/PsychicRitual_VoidTouchTransfer</iconPath>
+	<hoursUntilOutcome>4</hoursUntilOutcome>
+	<cooldownHours>0</cooldownHours>
+	<targetRole>CustomTargetSTNL</targetRole>
+	<castableOnPocketMaps>true</castableOnPocketMaps>
+	<chanterRole>ChanterAdvanced</chanterRole>
+	<researchPrerequisite>AdvancedPsychicRituals</researchPrerequisite>
+	<requiredOffering>
+		<filter>
+			<thingDefs>
+				<li>Shard</li>
+			</thingDefs>
+		</filter>
+		<count>5</count>
+	</requiredOffering>
+	<!-- <layerWhitelist> -->
+	<!-- <li>Surface</li> -->
+	<!-- </layerWhitelist> -->
+	<comaChanceFromQuality>
+		<points>
+			<li>(0, 1)</li>
+			<li>(0.5, 0.5)</li>
+			<li>(1, 0)</li>
+		</points>
+	</comaChanceFromQuality>
+</MorePsyRitualsSTNL.PsychicRitualDef_VoidTouchedTransfer>
+
+<!-- Anom-ally -->
+
+<MorePsyRitualsSTNL.PsychicRitualDef_Anomally>
+	<defName>AnomallySTNL</defName>
+	<label>Anom-Ally</label>
+	<description>Invoke a creature of the Void to fight your foes.</description>
+	<outcomeDescription>Conjure a twisted creature to fight for the colony, the higher the quality, the more advanced the summoned entity will be.\n\nQuality will then determine how many creatures will be summoned once it reaches 50%\n\nAmount of summoned creatures:</outcomeDescription>
+	<iconPath>Sentinel_ModdedPsychicRituals/PsychicRitual_Anomally</iconPath>
+	<hoursUntilOutcome>3</hoursUntilOutcome>
+	<cooldownHours>0</cooldownHours>
+	<!-- <targetRole>CustomTargetSTNL</targetRole> -->
+	<castableOnPocketMaps>true</castableOnPocketMaps>
+	<chanterRole>ChanterAdvanced</chanterRole>
+	<researchPrerequisite>AdvancedPsychicRituals</researchPrerequisite>
+	<requiredOffering>
+		<filter>
+			<thingDefs>
+				<li>Bioferrite</li>
+			</thingDefs>
+		</filter>
+		<count>30</count>
+	</requiredOffering>
+	<!-- <layerWhitelist> -->
+	<!-- <li>Surface</li> -->
+	<!-- </layerWhitelist> -->
+	<DeterminingCurve>
+		<points>
+			<li>(0, 1)</li>
+			<li>(0.25, 2)</li>
+			<li>(0.5, 3)</li>
+		</points>
+	</DeterminingCurve>
+	<availableEntitiesPre25>
+		<li>Fingerspike</li>
+		<li>Trispike</li>
+	</availableEntitiesPre25>
+	<availableEntitiesPost25Pre50>
+		<li>Toughspike</li>
+		<li>Gorehulk</li>
+	</availableEntitiesPost25Pre50>
+	<availableEntitiesPost50>
+		<li>Devourer</li>
+		<li>Bulbfreak</li>
+	</availableEntitiesPost50>
+	<amountToSpawnFromQuality>
+	<points>
+	<li>(0, 1)</li>
+	<li>(0.5, 1)</li>
+	<li>(0.6, 2)</li>
+	<li>(0.8, 3)</li>
+	<li>(1, 4)</li>
+	</points>
+	</amountToSpawnFromQuality>
+	<hediffsToAdd>
+	<li>PsyRituals_AnomallySTNL</li>
+	</hediffsToAdd>
+</MorePsyRitualsSTNL.PsychicRitualDef_Anomally>
+
+<!-- Eclipse -->
+
+<MorePsyRitualsSTNL.PsychicRitualDef_Eclipse>
+	<defName>EclipseSTNL</defName>
+	<label>Eclipse</label>
+	<description>Shroud the colony with an obscure veil capable of blocking sunlight.</description>
+	<outcomeDescription>Execute an incantation that will cause a mysterious veil to block out the sunlight.\n\nDuration of the eclipse (Days):</outcomeDescription>
+	<iconPath>Sentinel_ModdedPsychicRituals/PsychicRitual_Eclipse</iconPath>
+	<hoursUntilOutcome>3</hoursUntilOutcome>
+	<cooldownHours>0</cooldownHours>
+	<!-- <targetRole>CustomTargetSTNL</targetRole> -->
+	<castableOnPocketMaps>true</castableOnPocketMaps>
+	<chanterRole>ChanterAdvanced</chanterRole>
+	<researchPrerequisite>AdvancedPsychicRituals</researchPrerequisite>
+	<requiredOffering>
+		<filter>
+			<thingDefs>
+				<li>Bioferrite</li>
+			</thingDefs>
+		</filter>
+		<count>25</count>
+	</requiredOffering>
+	<!-- <layerWhitelist> -->
+	<!-- <li>Surface</li> -->
+	<!-- </layerWhitelist> -->
+	<eclipseDurationFromQuality>
+	<points>
+	<li>(0, 60000)</li>
+	<li>(0.5, 450000)</li>
+	<li>(1, 900000)</li>
+	</points>
+	</eclipseDurationFromQuality>
+</MorePsyRitualsSTNL.PsychicRitualDef_Eclipse>
+
+<!-- Bio-Shred -->
+
+<MorePsyRitualsSTNL.PsychicRitualDef_Bioshredder>
+	<defName>BioshredderSTNL</defName>
+	<label>Bio-Shred</label>
+	<description>Shred the target with a dark psychic phenomenon, leaving nothing but bioferrite in their place.</description>
+	<outcomeDescription>Assault the target with dark psychic forces, the phenomenon will cause the target to suddenly burst open and turn into bioferrite.\n\nThe amount of bioferrite scales with ritual quality and the target's body size.\n\nAmount of bioferrite that this target will grant:</outcomeDescription>
+	<iconPath>Sentinel_ModdedPsychicRituals/PsychicRitual_Bioshred</iconPath>
+	<hoursUntilOutcome>2</hoursUntilOutcome>
+	<cooldownHours>0</cooldownHours>
+	<targetRole>CustomTargetSTNL</targetRole>
+	<castableOnPocketMaps>true</castableOnPocketMaps>
+	<chanterRole>ChanterAdvanced</chanterRole>
+	<researchPrerequisite>BioferriteHarvesting</researchPrerequisite>
+	<!-- <requiredOffering> -->
+		<!-- <filter> -->
+			<!-- <thingDefs> -->
+				<!-- <li>Bioferrite</li> -->
+			<!-- </thingDefs> -->
+		<!-- </filter> -->
+		<!-- <count>25</count> -->
+	<!-- </requiredOffering> -->
+	<!-- <layerWhitelist> -->
+	<!-- <li>Surface</li> -->
+	<!-- </layerWhitelist> -->
+<bioferriteAmountCurveQuality>
+<points>
+<li>(0, 0)</li>
+<li>(0.5, 75)</li>
+<li>(1, 150)</li>
+</points>
+</bioferriteAmountCurveQuality>
+</MorePsyRitualsSTNL.PsychicRitualDef_Bioshredder>
+
+<!-- Bioferrite Conversion -->
+
+<MorePsyRitualsSTNL.PsychicRitualDef_BioferriteConversion>
+	<defName>BioferriteConversionSTNL</defName>
+	<label>Bioferrite Conversion</label>
+	<description>Attempt to convert bioferrite into shards of dark archotechnology.</description>
+	<outcomeDescription>Infuse a large amount of bioferrite with dark psychic energy, which may result in the bioferrite transforming into twisted shards of dark origins.\n\nFail chance: 50%\n\nPotential amount of shards:</outcomeDescription>
+	<iconPath>Sentinel_ModdedPsychicRituals/PsychicRitual_BioferriteConversion</iconPath>
+	<hoursUntilOutcome>2</hoursUntilOutcome>
+	<cooldownHours>0</cooldownHours>
+	<!-- <targetRole>CustomTargetSTNL</targetRole> -->
+	<castableOnPocketMaps>true</castableOnPocketMaps>
+	<chanterRole>ChanterAdvanced</chanterRole>
+	<researchPrerequisite>BioferriteShaping</researchPrerequisite>
+	<requiredOffering>
+		<filter>
+			<thingDefs>
+				<li>Bioferrite</li>
+			</thingDefs>
+		</filter>
+		<count>75</count>
+	</requiredOffering>
+	<!-- <layerWhitelist> -->
+	<!-- <li>Surface</li> -->
+	<!-- </layerWhitelist> -->
+	<shardAmountBasedOnQuality>
+		<points>
+			<li>(0, 1)</li>
+			<li>(0.25, 2)</li>
+			<li>(0.50, 3)</li>
+			<li>(0.75, 4)</li>
+			<li>(1, 5)</li>
+		</points>
+	</shardAmountBasedOnQuality>
+</MorePsyRitualsSTNL.PsychicRitualDef_BioferriteConversion>
+
+<!-- Regenerative Chant -->
+
+<MorePsyRitualsSTNL.PsychicRitualDef_RegenerativeChant>
+	<defName>RegenerativeChantSTNL</defName>
+	<label>Regenerative Chant</label>
+	<description>Attempts to heal the target's wounds.</description>
+	<outcomeDescription>Begin an invocation of dark psychic forces to heal the target from small wounds and scars.\n\nChance to heal each wound:</outcomeDescription>
+	<iconPath>Sentinel_ModdedPsychicRituals/PsychicRitual_RegenerativeChant</iconPath>
+	<hoursUntilOutcome>2</hoursUntilOutcome>
+	<cooldownHours>0</cooldownHours>
+	<targetRole>CustomTargetSTNL</targetRole>
+	<castableOnPocketMaps>true</castableOnPocketMaps>
+	<chanterRole>ChanterAdvanced</chanterRole>
+	<researchPrerequisite>AdvancedPsychicRituals</researchPrerequisite>
+	<requiredOffering>
+		<filter>
+			<thingDefs>
+				<li>Shard</li>
+			</thingDefs>
+		</filter>
+		<count>5</count>
+	</requiredOffering>
+	<!-- <layerWhitelist> -->
+	<!-- <li>Surface</li> -->
+	<!-- </layerWhitelist> -->
+	<chanceToHealWoundFromQuality>
+		<points>
+			<li>(0, 0)</li>
+			<li>(0.5, 0.5)</li>
+			<li>(1, 1)</li>
+		</points>
+	</chanceToHealWoundFromQuality>
+</MorePsyRitualsSTNL.PsychicRitualDef_RegenerativeChant>
+
+<!-- Healing Pulse -->
+
+<MorePsyRitualsSTNL.PsychicRitualDef_HediffPulse>
+	<defName>HealingPulseSTNL</defName>
+	<label>Healing Pulse</label>
+	<description>Bless the colony with a dark psychic phenomenon.</description>
+	<outcomeDescription>Begin chanting dark verses to improve the wound healing speed of creatures belonging to the colony, this dark psychic phenomenon will halve the speed at which their immune system will function for the duration of this condition.\n\nThis condition will override immunity pulse.\n\nDuration of the healing pulse (Days):</outcomeDescription>
+	<iconPath>Sentinel_ModdedPsychicRituals/PsychicRitual_Healing</iconPath>
+	<hoursUntilOutcome>3</hoursUntilOutcome>
+	<cooldownHours>0</cooldownHours>
+	<!-- <targetRole>CustomTargetSTNL</targetRole> -->
+	<castableOnPocketMaps>true</castableOnPocketMaps>
+	<chanterRole>ChanterAdvanced</chanterRole>
+	<researchPrerequisite>AdvancedPsychicRituals</researchPrerequisite>
+	<requiredOffering>
+		<filter>
+			<thingDefs>
+				<li>Bioferrite</li>
+			</thingDefs>
+		</filter>
+		<count>30</count>
+	</requiredOffering>
+	<!-- <layerWhitelist> -->
+	<!-- <li>Surface</li> -->
+	<!-- </layerWhitelist> -->
+	<hediffsToGive>
+		<li>PsyRituals_HealingPulseSTNL</li>
+	</hediffsToGive>
+	<hediffsToRemove>
+		<li>PsyRituals_ImmunityPulseSTNL</li>
+	</hediffsToRemove>
+	<durationOfPulseFromCurve>
+		<points>
+			<li>(0, 60000)</li>
+			<li>(0.5, 450000</li>
+			<li>(1, 900000</li>
+		</points>
+	</durationOfPulseFromCurve>
+</MorePsyRitualsSTNL.PsychicRitualDef_HediffPulse>
+
+<!-- Immunity Pulse -->
+
+<MorePsyRitualsSTNL.PsychicRitualDef_HediffPulse>
+	<defName>ImmunityPulseSTNL</defName>
+	<label>Immunity Pulse</label>
+	<description>Bless the colony with a dark psychic phenomenon.</description>
+	<outcomeDescription>Begin chanting dark verses to improve the immunity gain speed of creatures belonging to the colony, this dark psychic phenomenon will halve their injury healing speed for the duration of this condition.\n\nThis condition will override healing pulse.\n\nDuration of the immunity pulse (Days):</outcomeDescription>
+	<iconPath>Sentinel_ModdedPsychicRituals/PsychicRitual_Immunity</iconPath>
+	<hoursUntilOutcome>3</hoursUntilOutcome>
+	<cooldownHours>0</cooldownHours>
+	<!-- <targetRole>CustomTargetSTNL</targetRole> -->
+	<castableOnPocketMaps>true</castableOnPocketMaps>
+	<chanterRole>ChanterAdvanced</chanterRole>
+	<researchPrerequisite>AdvancedPsychicRituals</researchPrerequisite>
+	<requiredOffering>
+		<filter>
+			<thingDefs>
+				<li>Bioferrite</li>
+			</thingDefs>
+		</filter>
+		<count>30</count>
+	</requiredOffering>
+	<!-- <layerWhitelist> -->
+	<!-- <li>Surface</li> -->
+	<!-- </layerWhitelist> -->
+	<hediffsToGive>
+		<li>PsyRituals_ImmunityPulseSTNL</li>
+	</hediffsToGive>
+	<hediffsToRemove>
+		<li>PsyRituals_HealingPulseSTNL</li>
+	</hediffsToRemove>
+	<durationOfPulseFromCurve>
+		<points>
+			<li>(0, 60000)</li>
+			<li>(0.5, 450000</li>
+			<li>(1, 900000</li>
+		</points>
+	</durationOfPulseFromCurve>
+</MorePsyRitualsSTNL.PsychicRitualDef_HediffPulse>
+</Defs>
