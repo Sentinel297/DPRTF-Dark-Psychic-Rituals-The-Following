@@ -151,3 +151,6 @@ I don't like cooldowns on stuff, the material cost is enough.
 
 <h2>CE compat?</h2>
 Yes.
+
+<h2>Safe to add/remove mid-game?</h2>
+Yes.
