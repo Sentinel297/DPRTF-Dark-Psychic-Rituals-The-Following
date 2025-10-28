@@ -143,3 +143,11 @@ Quality Scaling: Pulse Duration
 Cannot Be Active With: Healing Pulse
 
 Bestow an immunity pulse upon creatures of the colony, this pulse will increase immunity gain speed by 50% while reducing injury healing speed by 50%
+
+<h1>F.A.Q</h1>
+
+<h2>Why no cooldowns on the rituals?</h2>
+I don't like cooldowns on stuff, the material cost is enough.
+
+<h2>CE compat?</h2>
+Yes.
