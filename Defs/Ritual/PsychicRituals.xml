@@ -7,7 +7,7 @@
 	<defName>CustomTargetSTNL</defName>
 	<label>target</label>
 	<allowedCount>1</allowedCount>
-	<allowedConditions>Default, Downed, Prisoner, Sleeping, IdeoUnwilling</allowedConditions>
+	<allowedConditions>Default, Downed, Prisoner, Sleeping, IdeoUnwilling, Bleeding, ExtremeTemperature, Humanlike, NonHumanlike, Slave, Dead, Baby, Child, Adult, SubHuman, NoPsychicSensitivity</allowedConditions>
 	<applyPowerOffset>false</applyPowerOffset>
 	<removeOnLost>false</removeOnLost>
 </PsychicRitualRoleDef>
@@ -48,7 +48,7 @@
 		<points>
 			<li>(0, 0.5)</li>
 			<li>(0.5, 0.25)</li>
-			<li>(1, 0.10)</li>
+			<li>(0.95, 0.10)</li>
 		</points>
 	</chanceOfDeath>
 </MorePsyRitualsSTNL.PsychicRitualDef_PsychicAwakening>
@@ -82,7 +82,7 @@
 	<points>
 	<li>(0, 5)</li>
 	<li>(0.5, 10)</li>
-	<li>(1, 20)</li>
+	<li>(0.95, 20)</li>
 	</points>
 	</randomGeneAmountFromQuality>
 </MorePsyRitualsSTNL.PsychicRitualDef_Xenoverwrite>
@@ -93,7 +93,7 @@
 	<defName>XenophagySTNL</defName>
 	<label>Xenophagy</label>
 	<description>Rip the genes from the target in order to grant them to the invoker.</description>
-	<outcomeDescription>Forcefully rip the target's genes by a dark psychic phenomenon, some genes may destabilize in the process, effectively nullifying them.\n\nChance of transfer per gene:</outcomeDescription>
+	<outcomeDescription>Forcefully rip the target's genes by using a dark psychic phenomenon, some genes may destabilize in the process, effectively nullifying them.\n\nChance of transfer per gene:</outcomeDescription>
 	<iconPath>Sentinel_ModdedPsychicRituals/PsychicRitual_Xenophagy</iconPath>
 	<hoursUntilOutcome>3</hoursUntilOutcome>
 	<cooldownHours>0</cooldownHours>
@@ -116,7 +116,7 @@
 		<points>
 			<li>(0, 0.1)</li>
 			<li>(0.5, 0.5)</li>
-			<li>(1, 1)</li>
+			<li>(0.95, 1)</li>
 		</points>
 	</chanceToGetGeneFromQuality>
 </MorePsyRitualsSTNL.PsychicRitualDef_Xenophagy>
@@ -151,7 +151,7 @@
 		<points>
 			<li>(0, 900000)</li>
 			<li>(0.5, 450000)</li>
-			<li>(1, 60000)</li>
+			<li>(0.95, 60000)</li>
 		</points>
 	</comaDurationFromQuality>
 </MorePsyRitualsSTNL.PsychicRitualDef_SkipMigration>
@@ -185,7 +185,7 @@
 		<points>
 			<li>(0, 2500)</li>
 			<li>(0.5, 7500)</li>
-			<li>(1, 12500)</li>
+			<li>(0.95, 12500)</li>
 		</points>
 	</durationOfWitheringBasedOnQuality>
 </MorePsyRitualsSTNL.PsychicRitualDef_WitheringChant>
@@ -219,7 +219,7 @@
 		<points>
 			<li>(0, 1)</li>
 			<li>(0.5, 0.5)</li>
-			<li>(1, 0)</li>
+			<li>(0.95, 0)</li>
 		</points>
 	</comaChanceFromQuality>
 </MorePsyRitualsSTNL.PsychicRitualDef_VoidTouchedTransfer>
@@ -274,7 +274,7 @@
 	<li>(0.5, 1)</li>
 	<li>(0.6, 2)</li>
 	<li>(0.8, 3)</li>
-	<li>(1, 4)</li>
+	<li>(0.95, 4)</li>
 	</points>
 	</amountToSpawnFromQuality>
 	<hediffsToAdd>
@@ -311,7 +311,7 @@
 	<points>
 	<li>(0, 60000)</li>
 	<li>(0.5, 450000)</li>
-	<li>(1, 900000)</li>
+	<li>(0.95, 900000)</li>
 	</points>
 	</eclipseDurationFromQuality>
 </MorePsyRitualsSTNL.PsychicRitualDef_Eclipse>
@@ -345,7 +345,7 @@
 <points>
 <li>(0, 0)</li>
 <li>(0.5, 75)</li>
-<li>(1, 150)</li>
+<li>(0.95, 150)</li>
 </points>
 </bioferriteAmountCurveQuality>
 </MorePsyRitualsSTNL.PsychicRitualDef_Bioshredder>
@@ -381,7 +381,7 @@
 			<li>(0.25, 2)</li>
 			<li>(0.50, 3)</li>
 			<li>(0.75, 4)</li>
-			<li>(1, 5)</li>
+			<li>(0.95, 5)</li>
 		</points>
 	</shardAmountBasedOnQuality>
 </MorePsyRitualsSTNL.PsychicRitualDef_BioferriteConversion>
@@ -415,7 +415,7 @@
 		<points>
 			<li>(0, 0)</li>
 			<li>(0.5, 0.5)</li>
-			<li>(1, 1)</li>
+			<li>(0.95, 1)</li>
 		</points>
 	</chanceToHealWoundFromQuality>
 </MorePsyRitualsSTNL.PsychicRitualDef_RegenerativeChant>
@@ -455,7 +455,7 @@
 		<points>
 			<li>(0, 60000)</li>
 			<li>(0.5, 450000</li>
-			<li>(1, 900000</li>
+			<li>(0.95, 900000</li>
 		</points>
 	</durationOfPulseFromCurve>
 </MorePsyRitualsSTNL.PsychicRitualDef_HediffPulse>
@@ -495,7 +495,7 @@
 		<points>
 			<li>(0, 60000)</li>
 			<li>(0.5, 450000</li>
-			<li>(1, 900000</li>
+			<li>(0.95, 900000</li>
 		</points>
 	</durationOfPulseFromCurve>
 </MorePsyRitualsSTNL.PsychicRitualDef_HediffPulse>

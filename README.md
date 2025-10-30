@@ -1,4 +1,4 @@
-This mod adds various psychic rituals that can be unlocked upon completing anomaly researches.
+This mod adds various psychic rituals with many effects, these rituals can be accessed from the psychic ritual spot once they have been unlocked.
 
 <h1>Descriptions on this page have been shortened to be more succint, see in-game descriptions for the flavor text.</h1>
 These psychic rituals are:
@@ -148,6 +148,9 @@ Bestow an immunity pulse upon creatures of the colony, this pulse will increase 
 
 <h2>Why no cooldowns on the rituals?</h2>
 I don't like cooldowns on stuff, the material cost is enough.
+
+<h2>Balanced?</h2>
+I'd say so, the stronger rituals are expensive in terms of shards or have their own risks.
 
 <h2>CE compat?</h2>
 Yes.
