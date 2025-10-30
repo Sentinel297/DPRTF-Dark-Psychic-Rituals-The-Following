@@ -230,7 +230,7 @@
 	<defName>AnomallySTNL</defName>
 	<label>Anom-Ally</label>
 	<description>Invoke a creature of the Void to fight your foes.</description>
-	<outcomeDescription>Conjure a twisted creature to fight for the colony, the higher the quality, the more advanced the summoned entity will be.\n\nQuality will then determine how many creatures will be summoned once it reaches 50%\n\nAmount of summoned creatures:</outcomeDescription>
+	<outcomeDescription>Conjure a twisted creature to fight for the colony, the higher the quality, the more advanced the summoned entity will be.\n\nThe quality will then determine how many creatures will be summoned once it reaches 50%\n\nAmount of summoned creatures:</outcomeDescription>
 	<iconPath>Sentinel_ModdedPsychicRituals/PsychicRitual_Anomally</iconPath>
 	<hoursUntilOutcome>3</hoursUntilOutcome>
 	<cooldownHours>0</cooldownHours>
