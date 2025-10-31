@@ -176,7 +176,7 @@
 	<li>Shard</li>
 	</thingDefs>
 	</filter>
-	<count>5</count>
+	<count>1</count>
 	</requiredOffering>
 	<!-- <layerWhitelist> -->
 	<!-- <li>Surface</li> -->
@@ -403,10 +403,10 @@
 	<requiredOffering>
 		<filter>
 			<thingDefs>
-				<li>Shard</li>
+				<li>Bioferrite</li>
 			</thingDefs>
 		</filter>
-		<count>5</count>
+		<count>75</count>
 	</requiredOffering>
 	<!-- <layerWhitelist> -->
 	<!-- <li>Surface</li> -->

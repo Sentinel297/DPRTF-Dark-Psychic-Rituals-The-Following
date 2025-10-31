@@ -54,7 +54,7 @@ This ritual will transport the entire colony to a random tile on the planet's su
 
 Required Research: Insanity Weaponry
 
-Offering: 5 Shards
+Offering: 1 Shard
 
 Quality Scaling: Withering duration
 
@@ -68,7 +68,7 @@ Offering: 5 Shards
 
 Quality Scaling: Reduced coma chance
 
-This ritual will transfer (Remove from the invoker and add to the target) the void touched hediff obtained within the anomaly DLC.
+This ritual will grant the void touched hediff to the target if the invoker is void touched themselves.
 
 <h2>Anom-Ally</h2>
 
@@ -114,7 +114,7 @@ This ritual has a 50% chance to transform bioferrite into shards, failing the ro
 
 Required Research: Advanced Psychic Rituals
 
-Offering: 5 Shards
+Offering: 75 Bioferrite
 
 Quality Scaling: Chance to heal per wound/scar
 

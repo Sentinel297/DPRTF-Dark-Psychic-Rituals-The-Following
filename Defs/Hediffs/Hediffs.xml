@@ -2,7 +2,7 @@
 <HediffDef>
 	<defName>PsyRituals_WitheringChantSTNL</defName>
 	<label>Withering</label>
-	<description>This creature has been cursed by a psychic phenomenon, they will receive damage over time.</description>
+	<description>This creature has been cursed by a psychic phenomenon, it will receive damage over time.</description>
 	<hediffClass>MorePsyRitualsSTNL.Hediff_Withering</hediffClass>
 	<initialSeverity>1</initialSeverity>
 	<minSeverity>0</minSeverity>
