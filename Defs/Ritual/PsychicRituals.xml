@@ -499,4 +499,76 @@
 		</points>
 	</durationOfPulseFromCurve>
 </MorePsyRitualsSTNL.PsychicRitualDef_HediffPulse>
+
+<!-- Void Cleanse -->
+
+<MorePsyRitualsSTNL.PsychicRitualDef_VoidCleanse>
+	<defName>VoidCleanseSTNL</defName>
+	<label>Void Cleanse</label>
+	<description>Cleanse the target from the dark psychic forces living within them.</description>
+	<outcomeDescription>Release the target from the grasp of unknown psychic forces to grant them another chance at perceiving the world the same way as most do.\n\nFreeing the target from their condition may cause them to wander around in terror as they realize how far gone they once were.\n\nChance of terrifying hallucinations:</outcomeDescription>
+	<iconPath>Sentinel_ModdedPsychicRituals/PsychicRitual_VoidCleanse</iconPath>
+	<hoursUntilOutcome>3</hoursUntilOutcome>
+	<cooldownHours>0</cooldownHours>
+	<targetRole>CustomTargetSTNL</targetRole>
+	<castableOnPocketMaps>true</castableOnPocketMaps>
+	<chanterRole>ChanterAdvanced</chanterRole>
+	<researchPrerequisite>AdvancedPsychicRituals</researchPrerequisite>
+	<requiredOffering>
+		<filter>
+			<thingDefs>
+				<li>Bioferrite</li>
+			</thingDefs>
+		</filter>
+		<count>20</count>
+	</requiredOffering>
+	<!-- <layerWhitelist> -->
+	<!-- <li>Surface</li> -->
+	<!-- </layerWhitelist> -->
+	<hediffsToRemoveInTarget>
+		<li>Inhumanized</li>
+		<li>VoidTouched</li>
+	</hediffsToRemoveInTarget>
+	<chanceToGoMadFromCurve>
+		<points>
+			<li>(0, 1)</li>
+			<li>(0.5, 0.5)</li>
+			<li>(0.95, 0)</li>
+		</points>
+	</chanceToGoMadFromCurve>
+</MorePsyRitualsSTNL.PsychicRitualDef_VoidCleanse>
+
+<!-- Inhumanizing Chant -->
+
+<MorePsyRitualsSTNL.PsychicRitualDef_InhumanizingChant>
+	<defName>InhumanizingChantSTNL</defName>
+	<label>Inhumanizing Chant</label>
+	<description>Break the humanity of those who partake in this cursed ritual.</description>
+	<outcomeDescription>Link the minds of those who participate in this forbidden ritual to a distant engine of twisted origins, which will cause everyone present to lose their humanity as they fall under the influence of this dark hyperintelligence.\n\nLinking to this hyperintelligence may take a heavy toll on the mind, causing them to wander around in confusion as they struggle to comprehend their new alignment.\n\nChance that every participant will suffer from a humanity break:</outcomeDescription>
+	<iconPath>Sentinel_ModdedPsychicRituals/PsychicRitual_InhumanizingChant</iconPath>
+	<hoursUntilOutcome>2</hoursUntilOutcome>
+	<cooldownHours>0</cooldownHours>
+	<!-- <targetRole>CustomTargetSTNL</targetRole> -->
+	<castableOnPocketMaps>true</castableOnPocketMaps>
+	<chanterRole>ChanterAdvanced</chanterRole>
+	<researchPrerequisite>AdvancedPsychicRituals</researchPrerequisite>
+	<requiredOffering>
+		<filter>
+			<thingDefs>
+				<li>Bioferrite</li>
+			</thingDefs>
+		</filter>
+		<count>20</count>
+	</requiredOffering>
+	<!-- <layerWhitelist> -->
+	<!-- <li>Surface</li> -->
+	<!-- </layerWhitelist> -->
+	<chanceToHumanityBreakFromCurve>
+		<points>
+			<li>(0, 1)</li>
+			<li>(0.5, 0.5)</li>
+			<li>(0.95, 0)</li>
+		</points>
+	</chanceToHumanityBreakFromCurve>
+</MorePsyRitualsSTNL.PsychicRitualDef_InhumanizingChant>
 </Defs>

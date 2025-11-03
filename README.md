@@ -144,6 +144,30 @@ Cannot Be Active With: Healing Pulse
 
 Bestow an immunity pulse upon creatures of the colony, this pulse will increase immunity gain speed by 50% while reducing injury healing speed by 50%
 
+<h2>Void Cleanse</h2>
+
+Required Research: Advanced Psychic Rituals
+
+Offering: 20 Bioferrite
+
+Quality Scaling: Reduced mental break chance
+
+This ritual will cure the target from the following conditions:
+
+Void touched
+
+Inhumanization
+
+<h2>Inhumanizing Chant</h2>
+
+Required Research: Advanced Psychic Rituals
+
+Offering: 20 Bioferrite
+
+Quality Scaling: Reduced mental break chance
+
+Each person that participates in this dark ritual will become inhumanized on completion.
+
 <h1>F.A.Q</h1>
 
 <h2>Why no cooldowns on the rituals?</h2>
