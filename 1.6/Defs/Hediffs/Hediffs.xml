@@ -2,7 +2,7 @@
 <HediffDef>
 	<defName>PsyRituals_WitheringChantSTNL</defName>
 	<label>Withering</label>
-	<description>This creature has been cursed by a psychic phenomenon, it will receive damage over time.</description>
+	<description>This creature has been cursed by a psychic phenomenon. It will receive damage over time.</description>
 	<hediffClass>MorePsyRitualsSTNL.Hediff_Withering</hediffClass>
 	<initialSeverity>1</initialSeverity>
 	<minSeverity>0</minSeverity>
@@ -31,8 +31,8 @@
 	
 <HediffDef>
 	<defName>PsyRituals_HealingPulseSTNL</defName>
-	<label>Healing Pulse</label>
-	<description>This creature's healing capabilities are being enhanced by dark psychic forces, their immune system is being suppressed by this obscure condition.</description>
+	<label>Healing pulse</label>
+	<description>This creature's healing capabilities are being enhanced by dark psychic forces. Their immune system is being suppressed by this obscure condition.</description>
 	<hediffClass>HediffWithComps</hediffClass>
 	<initialSeverity>1</initialSeverity>
 	<minSeverity>0</minSeverity>
@@ -63,8 +63,8 @@
 
 <HediffDef>
 	<defName>PsyRituals_ImmunityPulseSTNL</defName>
-	<label>Immunity Pulse</label>
-	<description>This creature's immune system is being enhanced by dark psychic forces, their injury recovery speed is being halved by this obscure condition.</description>
+	<label>Immunity pulse</label>
+	<description>This creature's immune system is being enhanced by dark psychic forces. Their injury recovery speed is being halved.</description>
 	<hediffClass>HediffWithComps</hediffClass>
 	<initialSeverity>1</initialSeverity>
 	<minSeverity>0</minSeverity>
@@ -97,8 +97,8 @@
 
 <HediffDef>
 	<defName>PsyRituals_AnomallySTNL</defName>
-	<label>Anom-Ally</label>
-	<description>A creature of the Void, it will linger around for some time before returning from whence it came.</description>
+	<label>Anom-ally</label>
+	<description>A creature of the Void. It will linger around for some time before returning from whence it came.</description>
 	<hediffClass>MorePsyRitualsSTNL.Hediff_Anomally</hediffClass>
 	<initialSeverity>1</initialSeverity>
 	<minSeverity>0</minSeverity>
