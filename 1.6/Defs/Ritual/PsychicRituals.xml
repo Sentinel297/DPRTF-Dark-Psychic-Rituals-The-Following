@@ -25,7 +25,7 @@
 
 <MorePsyRitualsSTNL.PsychicRitualDef_PsychicAwakening MayRequire="Ludeon.Rimworld.Royalty">
 	<defName>PsychicAwakeningSTNL</defName>
-	<label>Psychic Awakening</label>
+	<label>Psychic awakening</label>
 	<description>Attempts to awaken or improve the psychic capabilities of the target.</description>
 	<outcomeDescription>Attempts to bind the target to a distant archotech in order to obtain various psychic abilities or to increase their psychic prowess.\n\nHowever, this process may instead have the effect of fusing the pawn with the archotech, causing them to disappear forever.\n\nChance of critical failure:</outcomeDescription>
 	<iconPath>Sentinel_ModdedPsychicRituals/PsychicAwakening</iconPath>
@@ -93,7 +93,7 @@
 	<defName>XenophagySTNL</defName>
 	<label>Xenophagy</label>
 	<description>Rip the genes from the target in order to grant them to the invoker.</description>
-	<outcomeDescription>Forcefully rip the target's genes by using a dark psychic phenomenon, some genes may destabilize in the process, effectively nullifying them.\n\nChance of transfer per gene:</outcomeDescription>
+	<outcomeDescription>Forcefully rip the target's genes by using a dark psychic phenomenon. Some genes may destabilize in the process, effectively nullifying them.\n\nChance of transfer per gene:</outcomeDescription>
 	<iconPath>Sentinel_ModdedPsychicRituals/PsychicRitual_Xenophagy</iconPath>
 	<hoursUntilOutcome>3</hoursUntilOutcome>
 	<cooldownHours>0</cooldownHours>
@@ -125,7 +125,7 @@
 
 <MorePsyRitualsSTNL.PsychicRitualDef_SkipMigration>
 	<defName>SkipMigrationSTNL</defName>
-	<label>Skip Migration</label>
+	<label>Skip migration</label>
 	<description>Relocates the colony to a random location in the world.</description>
 	<outcomeDescription>Concentrate chaotic thoughts into the ritual spot to trigger a disorderly skip process that will relocate the colony to a random location in the world and put the caster into a coma.\n\nDuration of the coma (Days):</outcomeDescription>
 	<iconPath>Sentinel_ModdedPsychicRituals/PsychicRitual_SkipMigration</iconPath>
@@ -160,7 +160,7 @@
 
 <MorePsyRitualsSTNL.PsychicRitualDef_WitheringChant>
 	<defName>WitheringChantSTNL</defName>
-	<label>Withering Chant</label>
+	<label>Withering chant</label>
 	<description>Harm enemies in the region.</description>
 	<outcomeDescription>Begin chanting various obscure verses that will cause enemies in the region to begin withering once the incantation finishes.\n\nDuration of withering (Hours):</outcomeDescription>
 	<iconPath>Sentinel_ModdedPsychicRituals/PsychicRitual_WitheringChant</iconPath>
@@ -194,9 +194,9 @@
 
 <MorePsyRitualsSTNL.PsychicRitualDef_VoidTouchedTransfer>
 	<defName>VoidTouchedTransferSTNL</defName>
-	<label>Void Touch Transfer</label>
+	<label>Void-touch transfer</label>
 	<description>Transfer the mark of the Void to another person.</description>
-	<outcomeDescription>Transfer the touch of the Void to another person, the invoker must be Void touched in order to successfully transfer their condition to the target.\n\nChance that the target will fall into a coma:</outcomeDescription>
+	<outcomeDescription>Transfer the touch of the Void to another person. The invoker must be Void-touched in order to successfully transfer their condition to the target.\n\nChance that the target will fall into a coma:</outcomeDescription>
 	<iconPath>Sentinel_ModdedPsychicRituals/PsychicRitual_VoidTouchTransfer</iconPath>
 	<hoursUntilOutcome>4</hoursUntilOutcome>
 	<cooldownHours>0</cooldownHours>
@@ -228,9 +228,9 @@
 
 <MorePsyRitualsSTNL.PsychicRitualDef_Anomally>
 	<defName>AnomallySTNL</defName>
-	<label>Anom-Ally</label>
+	<label>Anom-ally</label>
 	<description>Invoke a creature of the Void to fight your foes.</description>
-	<outcomeDescription>Conjure a twisted creature to fight for the colony, the higher the quality, the more advanced the summoned entity will be.\n\nThe quality will then determine how many creatures will be summoned once it reaches 50%\n\nAmount of summoned creatures:</outcomeDescription>
+	<outcomeDescription>Conjure a twisted creature to fight for the colony. The higher the quality, the more advanced the summoned entity will be.\n\nThe quality will then determine how many creatures will be summoned once it reaches 50%\n\nAmount of summoned creatures:</outcomeDescription>
 	<iconPath>Sentinel_ModdedPsychicRituals/PsychicRitual_Anomally</iconPath>
 	<hoursUntilOutcome>3</hoursUntilOutcome>
 	<cooldownHours>0</cooldownHours>
@@ -320,7 +320,7 @@
 
 <MorePsyRitualsSTNL.PsychicRitualDef_Bioshredder>
 	<defName>BioshredderSTNL</defName>
-	<label>Bio-Shred</label>
+	<label>Bio-shred</label>
 	<description>Shred the target with a dark psychic phenomenon, leaving nothing but bioferrite in their place.</description>
 	<outcomeDescription>Assault the target with dark psychic forces, the phenomenon will cause the target to suddenly burst open and turn into bioferrite.\n\nThe amount of bioferrite scales with ritual quality and the target's body size.\n\nAmount of bioferrite that this target will grant:</outcomeDescription>
 	<iconPath>Sentinel_ModdedPsychicRituals/PsychicRitual_Bioshred</iconPath>
@@ -354,7 +354,7 @@
 
 <MorePsyRitualsSTNL.PsychicRitualDef_BioferriteConversion>
 	<defName>BioferriteConversionSTNL</defName>
-	<label>Bioferrite Conversion</label>
+	<label>Bioferrite conversion</label>
 	<description>Attempt to convert bioferrite into shards of dark archotechnology.</description>
 	<outcomeDescription>Infuse a large amount of bioferrite with dark psychic energy, which may result in the bioferrite transforming into twisted shards of dark origins.\n\nFail chance: 50%\n\nPotential amount of shards:</outcomeDescription>
 	<iconPath>Sentinel_ModdedPsychicRituals/PsychicRitual_BioferriteConversion</iconPath>
@@ -390,7 +390,7 @@
 
 <MorePsyRitualsSTNL.PsychicRitualDef_RegenerativeChant>
 	<defName>RegenerativeChantSTNL</defName>
-	<label>Regenerative Chant</label>
+	<label>Regenerative chant</label>
 	<description>Attempts to heal the target's wounds.</description>
 	<outcomeDescription>Begin an invocation of dark psychic forces to heal the target from small wounds and scars.\n\nChance to heal each wound:</outcomeDescription>
 	<iconPath>Sentinel_ModdedPsychicRituals/PsychicRitual_RegenerativeChant</iconPath>
@@ -424,7 +424,7 @@
 
 <MorePsyRitualsSTNL.PsychicRitualDef_HediffPulse>
 	<defName>HealingPulseSTNL</defName>
-	<label>Healing Pulse</label>
+	<label>Healing pulse</label>
 	<description>Bless the colony with a dark psychic phenomenon.</description>
 	<outcomeDescription>Begin chanting dark verses to improve the wound healing speed of creatures belonging to the colony, this dark psychic phenomenon will halve the speed at which their immune system will function for the duration of this condition.\n\nThis condition will override immunity pulse.\n\nDuration of the healing pulse (Days):</outcomeDescription>
 	<iconPath>Sentinel_ModdedPsychicRituals/PsychicRitual_Healing</iconPath>
@@ -464,9 +464,9 @@
 
 <MorePsyRitualsSTNL.PsychicRitualDef_HediffPulse>
 	<defName>ImmunityPulseSTNL</defName>
-	<label>Immunity Pulse</label>
+	<label>Immunity pulse</label>
 	<description>Bless the colony with a dark psychic phenomenon.</description>
-	<outcomeDescription>Begin chanting dark verses to improve the immunity gain speed of creatures belonging to the colony, this dark psychic phenomenon will halve their injury healing speed for the duration of this condition.\n\nThis condition will override healing pulse.\n\nDuration of the immunity pulse (Days):</outcomeDescription>
+	<outcomeDescription>Begin chanting dark verses to improve the immunity gain speed of creatures belonging to the colony. This dark psychic phenomenon will halve their injury healing speed for the duration of this condition.\n\nThis condition will override healing pulse.\n\nDuration of the immunity pulse (Days):</outcomeDescription>
 	<iconPath>Sentinel_ModdedPsychicRituals/PsychicRitual_Immunity</iconPath>
 	<hoursUntilOutcome>3</hoursUntilOutcome>
 	<cooldownHours>0</cooldownHours>
@@ -504,7 +504,7 @@
 
 <MorePsyRitualsSTNL.PsychicRitualDef_VoidCleanse>
 	<defName>VoidCleanseSTNL</defName>
-	<label>Void Cleanse</label>
+	<label>Void cleanse</label>
 	<description>Cleanse the target from the dark psychic forces living within them.</description>
 	<outcomeDescription>Release the target from the grasp of unknown psychic forces to grant them another chance at perceiving the world the same way as most do.\n\nFreeing the target from their condition may cause them to wander around in terror as they realize how far gone they once were.\n\nChance of terrifying hallucinations:</outcomeDescription>
 	<iconPath>Sentinel_ModdedPsychicRituals/PsychicRitual_VoidCleanse</iconPath>
@@ -542,7 +542,7 @@
 
 <MorePsyRitualsSTNL.PsychicRitualDef_InhumanizingChant>
 	<defName>InhumanizingChantSTNL</defName>
-	<label>Inhumanizing Chant</label>
+	<label>Inhumanizing chant</label>
 	<description>Break the humanity of those who partake in this cursed ritual.</description>
 	<outcomeDescription>Link the minds of those who participate in this forbidden ritual to a distant engine of twisted origins, which will cause everyone present to lose their humanity as they fall under the influence of this dark hyperintelligence.\n\nLinking to this hyperintelligence may take a heavy toll on the mind, causing them to wander around in confusion as they struggle to comprehend their new alignment.\n\nChance that every participant will suffer from a humanity break:</outcomeDescription>
 	<iconPath>Sentinel_ModdedPsychicRituals/PsychicRitual_InhumanizingChant</iconPath>
