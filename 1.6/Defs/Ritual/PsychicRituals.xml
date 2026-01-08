@@ -356,7 +356,7 @@
 	<defName>BioferriteConversionSTNL</defName>
 	<label>Bioferrite conversion</label>
 	<description>Attempt to convert bioferrite into shards of dark archotechnology.</description>
-	<outcomeDescription>Infuse a large amount of bioferrite with dark psychic energy, which may result in the bioferrite transforming into twisted shards of dark origins.\n\nFail chance: 50%\n\nPotential amount of shards:</outcomeDescription>
+	<outcomeDescription>Infuse a large amount of bioferrite with dark psychic energy, which may result in the bioferrite transforming into twisted shards of dark origins.\n\nFail chance: 50%\nFailing the ritual will cause a Metalhorror to appear.\n\nPotential amount of shards:</outcomeDescription>
 	<iconPath>Sentinel_ModdedPsychicRituals/PsychicRitual_BioferriteConversion</iconPath>
 	<hoursUntilOutcome>2</hoursUntilOutcome>
 	<cooldownHours>0</cooldownHours>
