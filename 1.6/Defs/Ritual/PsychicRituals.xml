@@ -571,4 +571,43 @@
 		</points>
 	</chanceToHumanityBreakFromCurve>
 </MorePsyRitualsSTNL.PsychicRitualDef_InhumanizingChant>
+
+<!-- Unnatural Darkness -->
+
+<MorePsyRitualsSTNL.PsychicRitualDef_UnnaturalDarkness>
+	<defName>DPRTF_UnnaturalDarkness_STNL</defName>
+	<label>Unnatural darkness</label>
+	<description>Shroud the region in unnatural darkness.</description>
+	<outcomeDescription>Induce a distant engine of twisted archotechnology to conjure horrors of the night.</outcomeDescription>
+	<iconPath>Sentinel_ModdedPsychicRituals/PsychicRitual_UnnaturalDarkness</iconPath>
+	<hoursUntilOutcome>3</hoursUntilOutcome>
+	<cooldownHours>0</cooldownHours>
+	<!-- <targetRole>CustomTargetSTNL</targetRole> -->
+	<castableOnPocketMaps>true</castableOnPocketMaps>
+	<chanterRole>ChanterAdvanced</chanterRole>
+	<researchPrerequisite>AdvancedPsychicRituals</researchPrerequisite>
+	<requiredOffering>
+		<filter>
+			<thingDefs>
+				<li>Shard</li>
+			</thingDefs>
+		</filter>
+		<count>1</count>
+	</requiredOffering>
+	<!-- <layerWhitelist> -->
+	<!-- <li>Surface</li> -->
+	<!-- </layerWhitelist> -->
+	<extraNoctolithsCurve>
+		<points>
+			<li>(0, 0)</li>
+			<li>(0.95, 4)</li>
+		</points>
+	</extraNoctolithsCurve>
+	<threatPointsCurve>
+		<points>
+			<li>(0, 100)</li>
+			<li>(0.95, 5000)</li>
+		</points>
+	</threatPointsCurve>
+</MorePsyRitualsSTNL.PsychicRitualDef_UnnaturalDarkness>
 </Defs>

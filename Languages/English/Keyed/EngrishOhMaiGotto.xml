@@ -1,4 +1,9 @@
 <LanguageData>
 <VoidCleanseRitualWillCureSTNL>Void Cleanse will cure the following conditions:</VoidCleanseRitualWillCureSTNL>
 <BioferriteRitualConversionFailed_DPRTF_STNL>Ritual failed: The bioferrite has reformed into a metalhorror!</BioferriteRitualConversionFailed_DPRTF_STNL>
+<DPRTF_UnnaturalDarkness_OutcomeDescription_STNL>\n\nAt the current ritual quality:\n{0} additional noctolith(s) will appear\n{1} threat point(s) will be used for this unnatural darkness.</DPRTF_UnnaturalDarkness_OutcomeDescription_STNL>
+<!-- Settings -->
+<DPRTF_UnnaturalDarkness_Header_STNL>Unnatural darkness:</DPRTF_UnnaturalDarkness_Header_STNL>
+<DPRTF_UnnaturalDarkness_NoUnfairAdvantageToggle_STNL>More aggressive unnatural darkness:</DPRTF_UnnaturalDarkness_NoUnfairAdvantageToggle_STNL>
+<DPRTF_UnnaturalDarkness_NoUnfairAdvantageToolTip_STNL>By default, only humanlike pawns belonging to the player faction are considered valid to be targeted by the unnatural darkness' shadowy creatures.\n\nThis setting makes it so only mutants/anomaly creatures are immune to the darkness' effects.</DPRTF_UnnaturalDarkness_NoUnfairAdvantageToolTip_STNL>
 </LanguageData>
