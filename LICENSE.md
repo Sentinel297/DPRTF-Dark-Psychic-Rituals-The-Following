@@ -4,7 +4,7 @@ This software/mod is the intellectual property of the owner of this work and is 
 
 You are NOT allowed to:
 
-1. Copy, or redistribute in any form. (e.g re-uploading to another site, unauthorized forks, copying content verbatim to the protected material).
+1. Copy, or redistribute in any form. (e.g re-uploading to another site, unauthorized continuations, copying content verbatim to the protected material).
 2. Sell, license, or otherwise distribute this work.
 
 This copyright does NOT apply to content such as:
