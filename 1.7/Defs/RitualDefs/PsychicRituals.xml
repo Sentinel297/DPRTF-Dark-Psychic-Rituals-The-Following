@@ -688,7 +688,7 @@
 		<defName>DPRTF_Voidsplice_STNL</defName>
 		<label>Voidsplice</label>
 		<description>Infuse the target with unknown boons and curses.</description>
-		<outcomeDescription>Induce a distant engine of twisted archotechnology to bestow several boons and a random curse onto the target creature, additionally, there is a slim chance that this ritual will awaken a random ability in the target. This condition can be randomized again by applying another Voidsplice ritual on the target, doing so will wipe every benefit granted by the previous voidsplice.\n\n</outcomeDescription>
+		<outcomeDescription>Induce a distant engine of twisted archotechnology to bestow several boons and a random curse onto the target creature, additionally, there is a slim chance that this ritual will awaken a random ability in the target.\n\nThis condition can be randomized again by applying another Voidsplice ritual on the target, doing so will wipe every benefit granted by the previous voidsplice.\n\n</outcomeDescription>
 		<iconPath>Sentinel_ModdedPsychicRituals/PsychicRitual_Voidsplice</iconPath>
 		<hoursUntilOutcome>2</hoursUntilOutcome>
 		<cooldownHours>0</cooldownHours>
