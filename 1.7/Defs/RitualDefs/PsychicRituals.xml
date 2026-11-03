@@ -773,6 +773,12 @@
 				<rollValues>1~2</rollValues>
 			</li>
 			<li>
+				<statDef>MentalBreakThreshold</statDef>
+				<codeName>san</codeName>
+				<rollValues>0.1~0.95</rollValues>
+				<inverted>true</inverted>
+			</li>
+			<li>
 				<statDef>PainShockThreshold</statDef>
 				<codeName>num</codeName>
 				<rollValues>1~1.75</rollValues>
@@ -813,9 +819,10 @@
 				<rollValues>1.5~2.5</rollValues>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Anomaly">
-				<statDef>PsychicRitualQualityOffset</statDef>
+				<statDef>DPRTF_PsychicRitualQuality_Offset_STNL</statDef>
 				<codeName>rit</codeName>
-				<rollValues>1.1~1.75</rollValues>
+				<rollValues>0.03~0.20</rollValues>
+				<offset>true</offset>
 			</li>
 			<!-- Odyssey -->
 			<li MayRequire="Ludeon.RimWorld.Odyssey">
@@ -908,7 +915,8 @@
 			<li>
 				<statDef>MentalBreakThreshold</statDef>
 				<codeName>ins</codeName>
-				<rollValues>0.3~0.9</rollValues>
+				<rollValues>1.1~1.75</rollValues>
+				<inverted>true</inverted>
 				<negative>true</negative>
 			</li>
 			<!-- Royalty -->
