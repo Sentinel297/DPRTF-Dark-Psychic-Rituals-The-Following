@@ -322,13 +322,13 @@
 	<defName>BioshredderSTNL</defName>
 	<label>Bio-shred</label>
 	<description>Shred the target with a dark psychic phenomenon, leaving nothing but bioferrite in their place.</description>
-	<outcomeDescription>Assault the target with dark psychic forces, the phenomenon will cause the target to suddenly burst open and turn into bioferrite.\n\nThe amount of bioferrite scales with ritual quality and the target's body size.\n\nAmount of bioferrite that this target will grant:</outcomeDescription>
+	<outcomeDescription>Assault the target with dark psychic forces, the phenomenon will cause the target to suddenly burst open and turn into bioferrite.\n\nThe amount of bioferrite scales with ritual quality and the target's body size.\n\nAmount of bioferrite that this target will yield:</outcomeDescription>
 	<iconPath>Sentinel_ModdedPsychicRituals/PsychicRitual_Bioshred</iconPath>
 	<hoursUntilOutcome>2</hoursUntilOutcome>
 	<cooldownHours>0</cooldownHours>
 	<targetRole>CustomTargetSTNL</targetRole>
-	<castableOnPocketMaps>true</castableOnPocketMaps>
 	<chanterRole>ChanterAdvanced</chanterRole>
+	<castableOnPocketMaps>true</castableOnPocketMaps>
 	<researchPrerequisite>BioferriteHarvesting</researchPrerequisite>
 	<!-- <requiredOffering> -->
 		<!-- <filter> -->

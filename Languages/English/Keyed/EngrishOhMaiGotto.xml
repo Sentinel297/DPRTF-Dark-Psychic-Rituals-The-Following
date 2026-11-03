@@ -2,6 +2,14 @@
 <VoidCleanseRitualWillCureSTNL>Void Cleanse will cure the following conditions:</VoidCleanseRitualWillCureSTNL>
 <BioferriteRitualConversionFailed_DPRTF_STNL>Ritual failed: The bioferrite has reformed into a metalhorror!</BioferriteRitualConversionFailed_DPRTF_STNL>
 <DPRTF_UnnaturalDarkness_OutcomeDescription_STNL>\n\nAt the current ritual quality:\n{0} additional noctolith(s) will appear\n{1} threat point(s) will be used for this unnatural darkness.</DPRTF_UnnaturalDarkness_OutcomeDescription_STNL>
+<!-- Unnatural invigoration -->
+<DPRTF_UnnaturalInvigoration_RitualDescription_STNL>At the current ritual quality: Invigoration will last for {0} day(s), and will retain {1}% of the target consciousness.</DPRTF_UnnaturalInvigoration_RitualDescription_STNL>
+<!-- Small ritual spot denial -->
+<DPRTF_SmallRitualSpot_Denial_CantStand_STNL>Blocked by {0}.</DPRTF_SmallRitualSpot_Denial_CantStand_STNL>
+<!-- Voidsplice -->
+<DPRTF_VoidspliceFragment_Core_Explanation_STNL>Core: {0} ({1})</DPRTF_VoidspliceFragment_Core_Explanation_STNL>
+<DPRTF_VoidspliceFragment_Explanation_STNL>{0} ({1}) - Quality: {2}%</DPRTF_VoidspliceFragment_Explanation_STNL>
+<DPRTF_Voidsplice_ExtraDescription_STNL>At the current ritual quality, the amount of boons bestowed will be: {0}.\nThere is a {1}% chance to obtain an anomalous ability.</DPRTF_Voidsplice_ExtraDescription_STNL>
 <!-- Settings -->
 <DPRTF_UnnaturalDarkness_Header_STNL>Unnatural darkness:</DPRTF_UnnaturalDarkness_Header_STNL>
 <DPRTF_UnnaturalDarkness_NoUnfairAdvantageToggle_STNL>More aggressive unnatural darkness:</DPRTF_UnnaturalDarkness_NoUnfairAdvantageToggle_STNL>
