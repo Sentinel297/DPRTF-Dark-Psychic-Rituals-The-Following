@@ -889,7 +889,7 @@
 			<li>
 				<statDef>RangedCooldownFactor</statDef>
 				<codeName>slu</codeName>
-				<rollValues>1~2</rollValues>
+				<rollValues>1.1~2</rollValues>
 				<inverted>true</inverted>
 				<negative>true</negative>
 			</li>

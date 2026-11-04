@@ -5,6 +5,7 @@
     <label>psychic ritual quality offset</label>
     <description>An offset applied to psychic ritual quality when this person participates.</description>
     <category>PsychicRituals</category>
+	<workerClass>MorePsyRitualsSTNL.StatWorker_PsychicRitualOffset</workerClass>
     <defaultBaseValue>0</defaultBaseValue>
     <showOnDefaultValue>false</showOnDefaultValue>
     <toStringStyle>PercentZero</toStringStyle>
