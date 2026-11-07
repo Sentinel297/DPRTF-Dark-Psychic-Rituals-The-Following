@@ -845,7 +845,7 @@
 			<li>
 				<capacityDef>Consciousness</capacityDef>
 				<codeName>con</codeName>
-				<rollValues>1~2</rollValues>
+				<rollValues>1.1~2</rollValues>
 			</li>
 		</positiveVoidspliceFragments>
 		<negativeVoidspliceFragments>
